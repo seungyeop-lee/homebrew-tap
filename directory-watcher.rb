@@ -5,20 +5,20 @@
 class DirectoryWatcher < Formula
   desc ""
   homepage ""
-  version "2.2.5"
+  version "2.2.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.5/directory-watcher_Darwin_arm64.tar.gz"
-      sha256 "c0d2934cf42a5279a855795772dc834d6f955b340fab2b06987a068815f5aaa9"
+      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.6/directory-watcher_Darwin_arm64.tar.gz"
+      sha256 "5a524d450bfba82497b55a49beabe32c6beec9eedb6a70fbcd325f01ef20ed00"
 
       def install
         bin.install "directory-watcher"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.5/directory-watcher_Darwin_x86_64.tar.gz"
-      sha256 "aa9893893c18146d6dfc2ac3c36eeed44bd11ecc2a3d818926c5d193bb7bd035"
+      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.6/directory-watcher_Darwin_x86_64.tar.gz"
+      sha256 "a2bd6ae704e1d30afdd06c21ed83b9d69172cdcaf2563f0b49fec98f6e9628d1"
 
       def install
         bin.install "directory-watcher"
@@ -28,16 +28,16 @@ class DirectoryWatcher < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.5/directory-watcher_Linux_arm64.tar.gz"
-      sha256 "3595ef7f851819cd5c0dbaa72348470415e0bf9f230e45bad359f549038f780e"
+      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.6/directory-watcher_Linux_arm64.tar.gz"
+      sha256 "eea8aea61ebd60744a62dce6cf534720ba074d2fc22d6edccefef8d2c4baf026"
 
       def install
         bin.install "directory-watcher"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.5/directory-watcher_Linux_x86_64.tar.gz"
-      sha256 "c57c2fa05a89da446edc139b87f2736502e78a1e5a36717497a75a5a7907a4c1"
+      url "https://github.com/seungyeop-lee/directory-watcher/releases/download/v2.2.6/directory-watcher_Linux_x86_64.tar.gz"
+      sha256 "cf127f3577370b6672dd451f25ce680d99b76714020c84aacd6dccc2c5249a17"
 
       def install
         bin.install "directory-watcher"
