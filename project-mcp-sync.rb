@@ -4,8 +4,8 @@
 class ProjectMcpSync < Formula
   desc "Sync project-scoped MCP server definitions between Claude Code and Codex"
   homepage "https://github.com/seungyeop-lee/project-mcp-sync"
-  url "https://github.com/seungyeop-lee/project-mcp-sync/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "5e063af8ede66581c90cd2bc96c3a273f9971c8e0fd289eb97db8685efc36a2c"
+  url "https://github.com/seungyeop-lee/project-mcp-sync/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "63997223eda03224c178f5f3d998a4a0b0e547106cfd2da8a129fa9005fb4ee8"
 
   depends_on "go" => :build
 
